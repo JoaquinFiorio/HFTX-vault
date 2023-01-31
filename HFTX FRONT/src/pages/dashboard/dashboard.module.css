@@ -1,0 +1,389 @@
+.pageName {
+  padding: 25px 25px;
+}
+
+.dashboard-profits {
+  padding-left: 0px;
+}
+
+.verticalSeparator-dashboard {
+  height: 100px;
+  align-self: center;
+  width: 2px;
+  background-color: #29abe2;
+  margin-left: 6px;
+}
+
+
+.horizontalSeparator-day-percentaje {
+  
+    height: 2px;
+    background-color: #29abe2;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+
+.greenNumber-dashboard {
+  color: #39b54a;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.number {
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.day-balance-number {
+  margin-top: 12%;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+.day-percentaje-number {
+  margin-top: 12%;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+.percentage-history-table{
+  background-color: #2f365c;
+    width: 98.5%;
+    margin-left: 0.7%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.percentage-history-table thead{
+  font-size: 25px;
+}
+
+.total-profits-number {
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.total-deposits-number {
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.row {
+  justify-content: space-between;
+
+}
+
+.day-percentage {
+  width: 20%;
+}
+
+.col-myaccount {
+  margin-bottom: 12px;
+  width: 68%;
+  margin-right: 2%;
+
+
+
+}
+
+.col-myaccount .p-3 {
+  height: 490px;
+  padding-left: 28px;
+
+}
+
+.col-daypercentage {
+  margin-bottom: 12px;
+  width: 30%;
+}
+
+.col-daypercentage .p-3 {
+  height: 490px;
+}
+
+.days {
+  text-align: center;
+}
+
+.rowPrincipalDashboard {
+  -altura-yellow: 100px;
+  width: 99%;
+
+  display: grid;
+  grid-template: 62.5% 32% / 68.5% 30%;
+  gap: 2.5%;
+
+
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.item1-dashboard {
+  /* border: 1px solid blueviolet; */
+  height: 547px;
+  color: red;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+.item1-dashboard .p-3 {
+
+  height: 446px;
+
+}
+
+.item2-dashboard {
+  /* border: 1px solid blueviolet; */
+  height: 547px;
+  color: red;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+.item2-dashboard .p-3 {
+
+  height: 446px;
+
+}
+
+.rowSecondaryDashboard {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+
+
+
+@media (max-width: 1374px) {
+  .greenNumber-dashboard {
+    padding-bottom: 30px;
+
+  }
+}
+
+@media (max-width: 1319px) {
+  .item2-dashboard .p-3 {
+
+    height: 446px;
+
+  }
+}
+
+
+@media (max-width: 1277px) {}
+
+
+
+@media (max-width: 1276px) {
+  .day-balance-number {
+    margin-top: 0px;
+    font-size: 40px;
+  }
+
+  .day-percentaje-number{
+    margin-top: 60px;
+  }
+
+  .col-daypercentage .p-3 {
+    height: 411px;
+
+
+  }
+}
+
+@media (max-width: 1276px) {
+  .col-myaccount .p-3 {
+    height: 439px;
+
+
+  }
+
+  .col-daypercentage .p-3 {
+    height: 400px;
+
+
+  }
+}
+
+
+@media (max-width: 1112px) {
+  /* .day-balance-number {
+    margin-top: 0px;
+    font-size: 35px;
+  } */
+
+  /* .day-percentaje-number {
+    margin-top: 30px;
+    font-size: 35px;
+  } */
+
+  .greenNumber-dashboard {
+    padding-bottom: 10px;
+  }
+
+  .dashboard-profits {
+    width: 232px;
+    margin-left: 16px;
+  }
+
+  .total-profits-number my-4 {
+    margin-top: 0px;
+  }
+
+
+  .dashboard-deposits {
+    width: 252px;
+
+  }
+
+  .verticalSeparator-dashboard {
+    
+      height: 150px;
+    align-self: center;
+    width: 2px;
+    background-color: #29abe2;
+    margin-left: 6px;
+  }
+
+}
+
+@media (max-width: 995px) {
+
+
+  .rowSecondaryDashboard {
+    margin-top: 2px;
+
+  }
+
+  .days>h5 {
+    font-size: 20px;
+  }
+
+  .number {
+    font-size: 25px;
+  }
+
+
+  .rowPrincipalDashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .item1-dashboard {
+    margin-bottom: 30px;
+
+    width: 100%;
+  }
+
+  .item2-dashboard {
+    margin-bottom: 30px;
+    height: 540px;
+    width: 100%;
+  }
+
+  .day-balance-number{
+    font-size: 50px;
+    margin-top: 40px;
+  }
+
+}
+
+
+@media (max-width: 860px) {
+
+  .rowSecondaryDashboard .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    align-content: center;
+  }
+
+  .rowSecondaryDashboard .row > div{
+    border-bottom: 1px solid #fff;
+    width: 150px;
+    align-content: center;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+
+  .item1-dashboard .p-3{
+    height: 580px;
+  }
+
+  .item1-dashboard {
+    height: 672px;
+  }
+
+  .deposits-profits{
+    margin-top: 50px;
+  }
+
+  .greenNumber-dashboard, .day-percentaje-number, .day-balance-number{
+    font-size: 45px;
+  }
+
+  .day-balance-number{
+    padding-top: 10px;
+  }
+
+  .dashboard-profits{
+    margin-left: 0px;
+  }
+
+
+  #deposits-profits {
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+
+  #deposits-profits > div{
+    width: 100%;
+
+  }
+
+  #deposits-profits .verticalSeparator-dashboard{
+    height: 1px;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+
+
+}

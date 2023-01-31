@@ -1,0 +1,542 @@
+.pageName {
+  padding: 25px 25px;
+}
+
+.tablita-deposits {
+  width: 100%;
+}
+
+.headerWithContent {
+  border-radius: 25px 25px 0px 0px;
+  background-color: var(--header);
+  padding: 10px 15px;
+  text-align: left;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.cardContent {
+  background-color: var(--main);
+  border-radius: 0px 0px 25px 25px;
+  margin-bottom: 12px;
+}
+
+
+.button-deposits {
+  border:0px;
+  font-size: 28px;
+  line-height: 27px ;
+  height: 35%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #0087b6 0%, #0058a6 100%);
+  border-radius: 10px;
+  margin-top: 12px;
+  padding:15px 0px;
+  
+}
+
+.rowCurrentValue h1{
+  font-size: 50px;
+}
+
+.button-deposits:hover {
+  background-color: #3d6345;
+  cursor: pointer;
+}
+
+.button-deposits:active {
+  transform: scale(95%);
+  
+}
+
+.deposits-button-container{
+  text-align: -webkit-center;
+}
+
+.deposits-button-container input{
+  border: 0px;
+  width: 90%;
+  height: 35%;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-weight:700;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+input:focus{
+  background: #141438!important;
+  color: white!important;
+}
+
+input{
+  color: white!important;
+}
+
+.deposits-button-container input:active{
+  border:none;
+  
+}
+
+.horizontalSeparator{
+  height: 2px;
+  width: 30%;
+  background-color: #29abe2;
+  margin-left: 35%;
+}
+
+
+.body-content-deposits{
+  height: 100%;
+}
+
+.body-content-deposits h1{
+  padding-top: 2%;
+  font-size: 60px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.table-deposits-history td, th, h4{
+  border-bottom: 0px;
+  border-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  
+}
+
+.rowPrincipalDeposits{
+  -altura-yellow: 100px;
+  width: 99%;
+ 
+  display: grid;
+  grid-template: 60% 32% / 68.5% 30%;
+  gap: 2.5%;
+ 
+  
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+
+
+.item1-deposits{
+  /* border: 1px solid blueviolet; */
+  height: 610px;
+  color:red;
+  grid-row-start:1;
+  grid-row-end:3;
+}
+
+
+.item1-deposits .p-3{
+  
+  height: 510px;
+  
+} 
+
+.item1-deposits .body-content-deposits{
+  height: 0px;
+}
+
+.item2-deposits .deposits-button-container {
+  text-align: -webkit-center;
+  display: flex;
+  align-items: center;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.item2-deposits{
+  /* border: 1px solid rgb(226, 208, 43); */
+  height: 301px;
+
+  color: red;
+}
+
+.item2-deposits .p-3{
+  height: 210px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.item3-deposits {
+  /* border: 1px solid rgb(43, 226, 141); */
+  height: 178px;
+}
+
+.item3-deposits .p-3{
+  height: 129px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.rowSecondaryDeposits{
+  height: 600px;
+  width: 99%;
+  /* display: flex; */
+  /* flex-wrap: nowrap; */
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  padding-right: 0px;
+}
+
+
+.colPrincipal{
+  width: 100%;
+  
+  
+  margin-right: 2%;
+
+  grid-row-start:1;
+  grid-row-end:3;
+}
+
+.colPrincipal ContentCards{
+  
+  height: 100%;
+}
+
+.colPrincipal .p-3{
+  height: 100%;
+  
+
+}
+
+.colSecondary{
+  width:100%;
+  height: 100%;
+  
+}
+
+.colSecondary .row{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  
+}
+
+.rowAmount-deposits{
+  
+  height: 69%;
+  
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.rowAmount-deposits .deposits-button-container{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.rowCurrentValue{
+  height: 30%;
+  padding: 0px;
+  
+  margin: 0px;
+}
+
+/* 
+.rowCurrentValue .content-cards_cardContent__wt7Nn{
+  height: 134px;
+  
+} */
+
+.rowCurrentValue .p-3{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1430px) {
+  .body-content-deposits h1{
+    padding-top: 2%;
+    font-size: 60px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .horizontalSeparator{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 2px;
+    width: 30%;
+    background-color: #29abe2;
+    margin-left: 35%;
+  }
+
+
+  .rowCurrentValue h1 {
+    font-size: 30px;
+}
+
+.deposits-button-container input{
+  font-size: 40px;
+}
+
+
+/* .button-deposits {
+  font-size: 20px;
+  height: 26%;
+} */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1360px){
+  /* .button-deposits{
+    font-size: 18px;
+  } */
+
+    .tablita{
+    width: 1036px;
+  }
+}
+
+@media (max-width: 1225px) {
+  
+  .item3-deposits .p-3 {
+    height: 129px;
+    
+}
+}
+
+
+
+
+@media (max-width: 1216px) {
+  .item3-deposits  .p-3 {
+    
+    padding: 0px;
+  }
+}
+
+@media (max-width: 1208px) {
+  .item3-deposits  .p-3 {
+    
+    padding: 0px;
+  }
+}
+
+
+@media (max-width: 1208px) {
+  
+  .item3-deposits .p-3 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+
+@media (max-width: 1133px) {
+  .item1-whitdraw  .p-3 {
+    height: 446px;
+    
+  }
+}
+
+
+
+@media (max-width: 1117px) {
+  .item1-whitdraw  .p-3 {
+    height: 446px;  
+    
+  }
+}
+
+
+
+@media (max-width: 1033px) {
+  .item1-whitdraw  .p-3 {
+    height: 415px;
+    
+    
+  }
+
+  .item3-deposits .p-3 .number{
+    font-size: 28px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 1111px) {
+  .deposits-button-container input{
+    font-size: 50px;
+  }
+  
+  
+
+.rowSecondaryDeposits {
+  margin-top: 40px;
+  width: 98%;
+}
+
+.rowPrincipalDeposits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.item2-deposits {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 350px;
+}
+
+.item1-deposits {
+  margin-bottom: 30px;
+  height: 610px;
+  width: 100%;
+}
+
+.item3-deposits {
+  width: 100%;
+  padding-bottom: 2px ;
+  
+  margin-bottom: 30px;
+  height: 225px;
+}
+
+
+.item3-deposits .p-3 .number{
+  font-size: 35px;
+}
+
+
+
+  
+}
+
+@media (max-width: 1027px) {
+  
+  .item1-deposits .p-3 {
+    height: 420px;
+    
+}
+.item1-deposits {
+  height: 517px;
+  
+}
+
+.body-content-deposits h1{
+  padding-top: 2%;
+  font-size: 60px;
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+}
+
+
+@media(max-width: 978px){
+  .rowSecondaryDeposits {
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  
+  .item1-whitdraw{
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 562px){
+
+.rowPrincipalDeposits  h3 {
+    font-size: 24px;
+}
+
+.rowPrincipalDeposits h4 {
+  font-size: 22px;
+}
+}
+
+@media (max-width: 500px) {
+  .item1-whitdraw {
+    margin-bottom: 30px;
+    height: 560px;
+  }
+
+  .item1-deposits .p-3 {
+    height: 414px;
+}
+
+
+}
+
+@media (width < 500px) {
+  .item1-whitdraw {
+    margin-bottom: 30px;
+    height: 500px;
+  }
+
+
+
+
+}

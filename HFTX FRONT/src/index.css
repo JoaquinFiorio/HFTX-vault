@@ -1,0 +1,379 @@
+@import url('pages/dashboard/dashboard.module.css');
+@import url('pages/deposits/deposits.module.css');
+@import url('pages/withdrawn/withdrawn.module.css');
+@import url('pages/calculator/calculator.module.css');
+@import url('pages/vault/vault.module.css');
+
+
+@font-face {
+  font-family: "spantaran";
+  src: url(./assets/fonts/Spantaran.ttf);
+}
+
+:root {
+  --main: #2f365c;
+  --secondary: #141438;
+  --header: #232744;
+}
+
+input[type="numer"]::-webkit-outer-spin-button , input[type="number"]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+
+.table-dark{
+  --bs-table-bg: transparent;
+}
+
+.item3-deposits{
+  margin-top: -40px;
+}
+
+.item3-deposits .p-3{
+  height: 168px;
+}
+
+.pending-deposits-table tr{
+  font-family:spantaran!important;
+}
+
+.row::-webkit-scrollbar{
+  height: 5px;
+  background-color: transparent;
+}
+
+.row::-webkit-scrollbar-thumb{
+  height: 4px;
+  border-radius: 3px;
+  background-color: #29abe2;
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 3px;
+  border-radius: 3px;
+  background-color: #29abe2;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: spantaran;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.item3-vault .p-3 {
+  height: 150px;
+}
+
+.item4-vault .p-3 {
+  height: 150px;
+}
+
+._auditLogo_1o1xs_9 {
+  width: 90px;
+  height: 90px;
+}
+
+.item5-vault .p-3 {
+  height: 150px;
+  text-align-last: center;
+}
+
+body{
+  background-color: #141438;
+}
+
+.rowPrincipal{
+  height: 100%;
+}
+
+
+
+.horizontalSeparator {
+  height: 2px;
+  background-color: #29abe2;
+}
+
+.number {
+  font-family: sans-serif;
+}
+
+.greenNumber {
+  font-family: sans-serif;
+  color: #39b54a;
+}
+
+.offcanvas {
+  border-width: 0px;
+}
+
+.offcanvas-start {
+  max-width: 250px;
+}
+
+.pageContainer {
+  padding-left: 250px;
+  min-height: 100vh;
+  height: 100%;
+  background-color: var(--secondary);
+}
+
+.sectionContainer{
+  padding-left:1.5%;
+}
+
+
+
+
+.rowAmount .p-3 {
+    height: 333px;
+}
+
+
+
+
+
+
+@media (max-width: 2200px) {
+.rowAmount .p-3 {
+    height: 333px;
+}
+  .rowAmount-withdraw .p-3 {
+    height: 361px;
+}
+  
+}
+
+@media (max-width: 2050px){
+  .rowAmount .p-3 {
+      height: 330px;
+  }
+  
+
+}
+
+
+
+
+@media (max-width: 1800px){
+  .rowAmount .p-3 {
+      height: 318px;
+  }
+  
+
+  
+}
+
+
+
+
+@media (max-width: 1783px){
+  
+
+}
+
+
+
+@media (max-width: 1575px){
+  .rowAmount .p-3 {
+      height: 303px;
+  } 
+
+}
+
+
+  
+@media (max-width: 1450px) {
+  .rowCurrentValue h1 {
+    font-size: 30px;
+}
+  
+
+}
+
+@media (max-width: 1433px) {
+  .rowAmount .p-3 {
+      height: 318px;
+  }
+  
+}
+
+@media (max-width: 1430px) {
+  .rowAmount .p-3 {
+      height: 288px;
+  }
+  
+}
+
+
+
+
+@media (max-width: 1363px) {
+  .rowCurrentValue h1 {
+    font-size: 30px;
+}
+
+  .rowAmount .p-3 {
+    height: 286px;
+}
+ 
+}
+
+
+
+
+
+@media (max-width: 1255px) {
+    
+ .rowAmount .p-3 {
+    height: 260px;
+}
+  
+
+}
+
+
+
+
+@media (max-width: 1238px) {
+  .rowAmount .p-3 {
+      height: 282px;
+  }
+
+
+}
+
+
+@media (max-width: 1232px) {
+  .rowAmount .p-3 {
+      height: 252px;
+  }
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1090px){
+.rowAmount .p-3{
+    height: 245px;
+}
+} 
+
+
+
+  
+
+
+
+@media (max-width: 995px) {
+
+
+  .pageContainer{
+    place-content: center;
+  }
+
+  .pageContainerVault{
+    place-content: center;
+  }
+
+  .rowPrincipal {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.deposit-vault-container input{
+  margin-top: 10%;
+}
+
+.deposit-text{
+  z-index: 100 ;
+  color: white;
+  font-size: 20px;
+  background-color: #141438;
+}
+
+
+  .colPrincipal {
+    width: 99%;
+    margin:0px;
+    
+  }
+
+  .col-principal-vault {
+    width: 99%;
+    margin: 0px;
+}
+
+.col-secondary-vault {
+  width: 99%;
+}
+  
+  .colSecondary {
+    width: 99%;
+    margin:0px;
+    height: 10%;
+    
+  }
+
+  
+
+  
+
+
+ 
+
+  
+
+  .rowSecondary{
+    margin-top: 0;
+
+  }
+
+  input{
+    margin-bottom: 5px;
+  }
+
+  .rowCurrentValue .number {
+    font-size: 35px;
+
+}
+
+ 
+}
+
+@media (max-width: 992px) {
+  .pageContainer {
+    padding-left: 0px;
+  }
+}
+
+
+
+
+
+@media (max-width: 981px) {
+
+}
+
+
+
+

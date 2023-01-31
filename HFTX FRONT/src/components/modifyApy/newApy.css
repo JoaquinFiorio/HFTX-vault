@@ -1,0 +1,39 @@
+.full-width{
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-apys{
+    min-width: 300px;
+    width: 50%;
+    background-color: #2f365c;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.modal-apys input{
+    color: #fff;
+    background-color: #141438;
+    font-family: 'Courier New', Courier, monospace;
+}
+

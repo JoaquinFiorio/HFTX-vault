@@ -1,0 +1,47 @@
+.pending-deposits-table td, .pending-deposits-table span, .pending-deposits-table tr, .pending-deposits-table a, .percentage-history-table td, .percentage-history-table tr{
+    font-family: sans-serif, Courier, monospace!important;
+    text-align: center;
+    font-weight: 900;
+}
+
+.total-rewarded p{
+    font-family: sans-serif, Courier, monospace!important;
+    font-weight: 600;
+}
+
+
+.body-calendar input{
+    color: white;
+    font-family: sans-serif, Courier, monospace!important;
+    font-weight: 600;
+    background-color: #141348;
+}
+
+.saved-map h5, .loaded-apy h5{
+    font-family: sans-serif, Courier, monospace!important;
+    font-weight: 600;
+}
+
+.box-admin{
+    height: 200px;
+    background-color: #2f365c;
+    border-radius: 15px;
+    margin: 20px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.btn{
+    margin-right: 20px;
+}
+
+.number2{
+    margin-top: 50px;
+}
+
+.box-admin h1{
+    font-family: sans-serif, Courier, monospace!important;
+    font-weight: 600;
+    color: #fff;
+}

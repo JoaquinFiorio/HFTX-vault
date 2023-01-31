@@ -1,0 +1,371 @@
+.pageName {
+  padding: 25px 25px;
+}
+
+.auditLogo {
+  width: 90px;
+  height: 90px;
+  margin-top: 15px;
+}
+
+.valores {
+  width: 10px;
+}
+
+/* .input{
+  width:35%;
+
+} */
+
+.verticalSeparatorHeaderVault {
+  height: 30px;
+  align-self: center;
+  width: 2px;
+  background-color: #29abe2;
+  margin-left: 0px;
+}
+
+.col-principal-vault {
+  width: 68%;
+  margin-right: 2%;
+  margin-bottom: 12px;
+
+}
+
+.col-secondary-vault {
+  width: 30%;
+
+}
+
+.row-historical .p-3 {
+
+  height: 500px;
+}
+
+.row-secondary {
+  place-content: center;
+}
+
+.rowPrincipalVault {
+  display: grid;
+  grid-template-columns: auto auto auto 30%;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 2.5%;
+  background-color: #141438;
+  /* padding: 10px; */
+}
+
+
+.row-historical {
+  margin-top: 12px;
+  width: 100%;
+}
+
+
+
+.deposit-vault-container {
+  text-align: -webkit-center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.audit-vault-container {
+  height: 100%;
+
+}
+
+.audit-vault-container .p-3 {
+  text-align: center;
+}
+
+.deposit-vault-container input {
+
+  font-family: sans-serif;
+
+  align-items: center;
+  background-color: var(--secondary);
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  height: 90px;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+}
+
+.tab-content h1 {
+  margin-top: 15px;
+}
+
+.botonesTab {
+  display: flex;
+  align-items: center;
+
+  margin-top: 0px;
+
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #141438;
+  text-align-last: center;
+  align-self: center;
+}
+
+.boton {
+  width: 30%;
+  height: 80%;
+  align-self: center;
+  border: none;
+  border-radius: 30px;
+  background-color: #141438;
+
+  margin-left: 5px;
+  margin-right: 4px;
+}
+
+
+
+
+.botonesTab .boton {
+
+  width: 70px;
+  border: none;
+  border-radius: 30px;
+  background-color: #2f365c;
+  margin-top: 7px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+
+.boton:hover {
+  background-image: linear-gradient(to right, #0087b6 0%, #0058a6 100%);
+  transform: scale(0.95);
+}
+
+.boton:active {
+  background-image: linear-gradient(to right, #0087b6 0%, #0058a6 100%);
+  border: none;
+  border-radius: 30px;
+  transform: none;
+
+}
+
+.boton:checked {
+  background-image: linear-gradient(to right, #0087b6 0%, #0058a6 100%);
+
+}
+
+
+.histRateSelected {
+  display: contents;
+  font-size: 50px;
+
+}
+
+.histRate {
+
+  display: none;
+
+}
+
+.botonPressed {
+  background-image: linear-gradient(to right, #0087b6 0%, #0058a6 100%);
+}
+
+.noPressed {
+  background-color: antiquewhite;
+}
+
+.nav-tab {
+  width: 100%;
+  display: flex;
+  margin: 0px;
+  justify-content: space-between;
+}
+
+.row {
+  justify-content: space-between;
+}
+
+
+
+.item1-vault {
+  grid-column: 1 / 4;
+}
+
+.item2-vault {
+  grid-column: 1 / 4;
+  grid-row: 2 / 7;
+  object-position: bottom;
+}
+
+.item3-vault {
+  grid-column: 4 / 4;
+  grid-row: 1 / 3;
+}
+
+
+.item4-vault {
+  grid-column: 4/ 4;
+  grid-row: 3 / 5;
+}
+
+.item4-vault .p-3 {
+  height: 221px;
+}
+
+.item5-vault {
+  grid-column: 4 / 4;
+  grid-row: 5 / 7;
+  object-position: bottom;
+}
+
+.item5-vault .p-3 {
+  height: 125px;
+  text-align-last: center;
+}
+
+.item2-vault .p-3 {
+  height: 575px;
+}
+
+.pageContainerVault {
+
+  padding-left: 250px;
+  min-height: 100vh;
+  height: 1500px;
+  background-color: var(--secondary);
+}
+
+.pageContainer {
+  height: 980px;
+}
+
+.background {
+  background-color: #141438;
+  margin: 0px;
+  padding: 0px;
+  min-height: 900px;
+  width: 100%;
+}
+
+
+
+.rowPrincipalVault {
+  height: 100%;
+
+}
+
+
+
+@media (max-width: 1366px) {
+  .item4-vault .p-3 {
+    height: 182px;
+  }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 1108px) {
+  .botonesTab {
+
+    width: 250px;
+  }
+
+
+}
+
+@media (max-width: 995px) {
+
+
+
+  .rowPrincipalVault {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+
+  }
+
+  .deposit-vault-container input {
+    margin-bottom: 10%;
+    /*height: 35%; */
+
+  }
+
+
+  .justify-content-evenly {
+    justify-content: space-between;
+  }
+
+  .item1-vault {
+    margin-bottom: 15px;
+
+  }
+
+  .item2-vault {
+    margin-bottom: 20px;
+  }
+
+  .item3-vault {
+    margin-bottom: 20px;
+  }
+
+  .item4-vault {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 580px) {
+
+  .botonesTab {
+
+    width: 150px;
+    height: 30px;
+
+  }
+
+  .boton {
+    font-size: 12px;
+  }
+
+  .valores h3 {
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .botonesTab {
+
+    width: 150px;
+    height: 30px;
+
+  }
+
+  .boton {
+    font-size: 12px;
+  }
+
+  .encabezados h4 {
+    font-size: 18px;
+  }
+
+  .encabezados h3 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "roboto";
+    src: url(./roboto/Roboto-Regular.ttf);
+  }
+  
+  .divtabla * {
+    font-family: sans-serif;
+    font-weight: bold ;
+    text-align: right;
+    color:#fff;
+}
+
+
+
+
+.divtabla{
+    max-width: 100%;
+}
+   
+   @media (max-widt:1360px) {
+     .divtabla{
+       width: 100%;
+     }
+   }
+
+
+
